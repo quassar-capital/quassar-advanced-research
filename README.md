@@ -4,115 +4,132 @@
 
 ## Overview
 
-Quassar Advanced Research is an interdisciplinary scientific research and computational engineering initiative within Quassar Capital, focused on numerical methods, simulation frameworks, and research software across selected areas of science and engineering.
+Quassar Advanced Research is an interdisciplinary scientific research and computational engineering initiative within Quassar Capital, focused on mathematical modeling, numerical methods, physical simulation, and research software across selected areas of science and engineering.
 
-The initiative is guided by mathematical rigor, physical consistency, numerical reliability, and reproducibility. Its scientific research activities are distinct from operational systems, commercial products, and Quassar Capital's proprietary investment infrastructure.
+Its scientific scope encompasses aerospace engineering, computational aerodynamics, artificial intelligence, applied mathematics, physics, advanced materials, structural mechanics, and fundamental research in physical dynamics.
+
+The methodological framework emphasizes mathematical rigor, physical consistency, numerical reliability, scientific reproducibility, and responsible research practices. Its scientific and engineering disciplines are distinct from Quassar Capital's investment strategies, proprietary financial models, and trading infrastructure.
 
 ## Research Domains
 
 ### Aerospace Engineering
 
-Computational approaches to flight mechanics, aerospace dynamics, structural behavior, and the analysis of physical systems under complex environmental conditions.
+Computational approaches to flight mechanics, aerospace dynamics, structural behavior, and the mathematical analysis of physical systems operating under complex environmental conditions.
 
-Research topics encompass mathematical modeling, numerical simulation, stability analysis, and the evaluation of aerospace engineering phenomena using established scientific principles.
+Research topics include dynamical modeling, stability analysis, numerical simulation, coupled physical systems, and the evaluation of aerospace engineering phenomena through established mathematical and scientific principles.
 
 ### Computational Aerodynamics
 
-Numerical investigation of fluid motion, turbulence, heat transfer, and aerodynamic phenomena, including the verification and validation of computational fluid dynamics methods.
+Numerical methods for examining fluid motion, turbulence, heat transfer, and aerodynamic phenomena.
 
-Areas of interest include numerical discretization, conservation laws, computational mesh quality, convergence analysis, turbulence modeling, and uncertainty quantification.
+Areas of interest include computational fluid dynamics, conservation laws, numerical discretization, mesh quality, convergence analysis, turbulence modeling, and uncertainty quantification.
+
+Research methodology emphasizes the distinction between numerical verification, physical validation, and the interpretation of computational results within defined modeling assumptions.
 
 ### Artificial Intelligence & Scientific Computing
 
-Machine learning, numerical optimization, scientific machine learning, and computational methods for analyzing complex datasets and physical processes.
+Mathematical and computational approaches to machine learning, numerical optimization, scientific machine learning, and the analysis of complex datasets and physical processes.
 
-Research emphasizes model interpretability, numerical reliability, generalization, reproducibility, and the integration of data-driven techniques with established mathematical and physical frameworks.
+Research topics include computational learning methods, physics-informed modeling, numerical approximation, optimization algorithms, uncertainty-aware inference, and the integration of data-driven methods with established mathematical and physical frameworks.
+
+The analytical emphasis is on model interpretability, generalization, reproducibility, numerical stability, and the scientific validity of computational conclusions.
 
 ### Applied Mathematics & Physics
 
-Differential equations, numerical linear algebra, dynamical systems, uncertainty quantification, optimization, and mathematical models of physical phenomena.
+Mathematical methods for analyzing physical phenomena, dynamical systems, and computational models of complex processes.
 
-Particular attention is given to mathematical consistency, numerical stability, computational accuracy, and the relationship between theoretical models and observable physical behavior.
+Areas of interest include ordinary and partial differential equations, numerical linear algebra, mathematical optimization, stochastic processes, uncertainty quantification, and computational approaches to theoretical and applied physics.
+
+Research principles emphasize mathematical consistency, numerical stability, error analysis, and the relationship between theoretical formulations and observable physical behavior.
 
 ### Advanced Materials & Structural Mechanics
 
-Computational methods for examining material behavior, deformation, stress, thermal effects, and structural response under defined conditions.
+Computational methods for examining material behavior, deformation, stress, thermal effects, and structural response under defined physical conditions.
 
-Research topics include continuum mechanics, constitutive modeling, finite element methods, structural dynamics, and the numerical evaluation of mechanical and thermal behavior.
+Research topics include continuum mechanics, constitutive modeling, finite element methods, structural dynamics, coupled thermal-mechanical phenomena, and the numerical evaluation of mechanical behavior.
+
+Analytical interpretation accounts for material assumptions, boundary conditions, discretization error, parameter uncertainty, and the limitations of numerical models.
 
 ### Dynamics & Fundamental Defense-Related Research
 
-Foundational research in mechanics, trajectory mathematics, sensing, and physical simulation, limited to academic, non-operational applications.
+Foundational scientific research in mechanics, dynamical systems, sensing, mathematical trajectory analysis, and physical simulation, restricted to academic and non-operational applications.
 
-Research in this domain is governed by scientific, safety, security, and responsible-disclosure considerations. The repository does not provide weapon design, targeting capabilities, or operational military systems.
+The scientific scope is governed by mathematical rigor, responsible research practices, safety considerations, and appropriate controls on sensitive or dual-use technical information.
 
-## Engineering Methodology
+Public research materials in this domain exclude weapon design, targeting capabilities, operational military systems, and technical instructions that would enable harmful applications.
 
-Research and software engineering are guided by the following principles:
+## Scientific & Engineering Methodology
 
-- **Scientific Validity:** Mathematical models grounded in clearly stated assumptions and established physical principles.
-- **Numerical Verification:** Systematic evaluation of convergence, stability, accuracy, conservation properties, and computational error.
-- **Experimental Validation:** Comparison with suitable analytical solutions, published benchmarks, reference datasets, or independently verifiable observations.
-- **Reproducibility:** Documented computational environments, controlled dependencies, deterministic testing where practical, and traceable numerical results.
-- **Software Quality:** Modular architecture, automated testing, code review, numerical regression testing, and appropriate performance assessment.
-- **Uncertainty Quantification:** Explicit consideration of measurement uncertainty, parameter sensitivity, numerical approximation, and model limitations.
-- **Responsible Research:** Technical review of safety, security, intellectual property, and potential dual-use implications before public disclosure.
+The scientific and computational engineering methodology is organized around the following principles:
+
+- **Scientific Validity:** Mathematical models grounded in clearly stated assumptions, established physical principles, and appropriate scientific evidence.
+- **Mathematical Rigor:** Consistent formulations, well-defined variables, appropriate boundary and initial conditions, and defensible analytical methods.
+- **Numerical Verification:** Evaluation of discretization error, convergence, numerical stability, conservation properties, and computational accuracy.
+- **Physical Validation:** Comparison with suitable analytical solutions, experimental observations, reference datasets, or independently verifiable scientific benchmarks.
+- **Uncertainty Quantification:** Explicit consideration of parameter uncertainty, measurement limitations, numerical approximation, and model-form uncertainty.
+- **Reproducibility:** Documented computational procedures, controlled dependencies, traceable assumptions, and repeatable scientific experiments.
+- **Software Engineering Quality:** Modular design, automated testing, numerical regression analysis, code review principles, and appropriate performance evaluation.
+- **Responsible Research:** Consideration of safety, security, intellectual property, legal requirements, and potential dual-use implications in scientific research and public disclosure.
 
 ## Technology & Computational Infrastructure
 
-The technical architecture is defined by the mathematical, scientific, and computational requirements of each research application.
+The computational scope encompasses programming languages and numerical technologies relevant to mathematical modeling, scientific simulation, artificial intelligence, and computational engineering. Technology selection is determined by the mathematical, physical, and performance requirements of each application rather than by a prescribed implementation stack.
 
-Relevant programming languages and computational technologies include:
+Relevant technologies include:
 
-- **Python:** Scientific computing, numerical analysis, data processing, machine learning, and research automation.
+- **Python:** Scientific computing, numerical analysis, mathematical modeling, machine learning, and research automation.
 - **C++:** High-performance numerical algorithms, computational kernels, and performance-sensitive scientific software.
-- **Rust:** Systems programming, memory-safe computational infrastructure, and reliable software components.
-- **Julia:** Numerical methods, mathematical modeling, and high-performance scientific computation.
-- **GPU-Accelerated Computing:** Parallel numerical workloads and computationally intensive scientific applications where technically justified.
+- **Rust:** Systems programming, memory-safe computational components, and reliable software architecture.
+- **Julia:** Numerical methods, mathematical optimization, differential equation modeling, and scientific computation.
+- **GPU-Accelerated Computing:** Parallel numerical workloads, matrix-intensive computation, and computationally demanding scientific simulations where technically justified.
 
-Engineering practices emphasize version control, modular design, continuous integration, automated verification, scientific documentation, benchmark evaluation, and reproducible computational environments.
+Core engineering principles include modular architecture, version control, automated testing, numerical regression analysis, benchmark evaluation, scientific documentation, and reproducible computational environments.
 
-Technology selection is driven by measurable scientific requirements rather than the adoption of any particular programming language or framework.
+Technology selection is guided by scientific validity, numerical reliability, computational efficiency, maintainability, and the specific requirements of each research problem.
 
 ## Research Governance & Scientific Integrity
 
-Quassar Advanced Research applies a disciplined approach to scientific methodology, computational reliability, and responsible research practices.
+The research governance framework is defined by scientific integrity, methodological transparency, computational reliability, information security, and responsible handling of technical research materials.
 
-The governing principles include:
+### Scientific Integrity
 
-**Research Integrity**
+Scientific assumptions, mathematical formulations, computational procedures, and analytical conclusions require accurate representation, with appropriate consideration of uncertainty, reproducibility, and methodological limitations.
 
-Scientific assumptions, computational methods, and analytical conclusions must be represented accurately, with appropriate consideration of uncertainty and methodological limitations.
+### Verification & Validation
 
-**Verification & Validation**
+Computational models are evaluated according to suitable numerical verification methods, physical validation procedures, reference comparisons, sensitivity analysis, and scientific benchmarks relevant to their intended research applications.
 
-Computational findings are evaluated through suitable verification procedures, reference comparisons, and validation methods appropriate to the scientific problem.
+Numerical agreement with a reference calculation does not, by itself, establish physical validity. Likewise, agreement with limited experimental observations does not establish universal predictive reliability.
 
-**Information Security**
+### Computational Reliability
 
-Confidential research, proprietary technology, sensitive technical information, and restricted materials are subject to appropriate access controls and disclosure requirements.
+Scientific interpretation accounts for numerical approximation, discretization choices, parameter sensitivity, model specification, computational precision, and the stability of results under relevant changes in analytical assumptions.
 
-**Responsible Technology**
+### Responsible Technology
 
-Research involving aerospace systems, advanced physical simulation, artificial intelligence, or defense-related scientific disciplines is assessed with consideration of applicable safety, security, legal, and dual-use implications.
+Research involving aerospace systems, artificial intelligence, advanced physical simulation, sensing, or defense-related scientific disciplines is subject to appropriate consideration of safety, security, legal requirements, and potential dual-use implications.
 
-**Intellectual Property**
+### Information Security
+
+Confidential research, proprietary technologies, sensitive technical information, restricted datasets, and internal computational infrastructure are excluded from public research materials.
+
+### Intellectual Property
 
 Public research materials are distinguished from proprietary methodologies, confidential information, and intellectual property belonging to Quassar Capital or third parties.
 
 ## Scope of Public Materials
 
-Publicly released materials are subject to scientific, security, intellectual property, and institutional review.
+Public disclosure of scientific and engineering research materials is subject to technical, scientific, safety, security, intellectual property, and institutional review.
 
-The scope of public research may include general-purpose numerical methods, academic simulations, nonproprietary research software, reproducible scientific examples, and technical documentation.
+Materials eligible for public distribution may include general-purpose numerical methods, academic simulations, nonproprietary scientific software, reproducible computational examples, and technical documentation.
 
-Confidential research, sensitive technical information, proprietary systems, and materials presenting unacceptable safety or dual-use risks are excluded from public disclosure.
+Confidential research, sensitive technical information, proprietary systems, restricted materials, and content presenting unacceptable safety or dual-use risks are excluded from public disclosure.
 
 ## Quassar Capital
 
-Quassar Capital is a New York-based investment firm conducting research across global financial markets.
+Quassar Capital is a New York–based hedge fund investing across global financial markets. Founded in 2012, the firm combines fundamental research, quantitative analysis, and investment judgment, with close attention to liquidity, market structure, and execution.
 
-Quassar Advanced Research is a distinct scientific and engineering initiative within the organization. Its research domains are separate from the firm's investment strategies and proprietary financial technology infrastructure.
+Quassar Advanced Research is an interdisciplinary scientific research and computational engineering initiative within Quassar Capital, focused on advanced mathematical methods, physical simulation, artificial intelligence, and selected scientific and engineering disciplines. Its research scope is distinct from the firm's individual investment strategies and proprietary financial technology infrastructure.
 
 **Official Website:** https://www.quassarcapital.com
 
@@ -120,4 +137,4 @@ Quassar Advanced Research is a distinct scientific and engineering initiative wi
 
 ---
 
-*Materials in this repository are intended for scientific research and informational purposes only. Research descriptions do not constitute claims of certified performance, operational readiness, or suitability for a particular application. For additional institutional information, consult Quassar Capital's [Disclosures](https://www.quassarcapital.com/disclosures/).*
+*Materials in this repository are intended for scientific research and informational purposes only. Research descriptions do not constitute claims of certified performance, operational readiness, or suitability for a particular application. Scientific models and computational results are subject to their underlying assumptions, validation requirements, and methodological limitations. For additional institutional information, consult Quassar Capital's Disclosures.*
