@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Rust
+/rust/target/
+
+# Julia
+/julia/Manifest.toml
+
+# Editors and operating systems
+.vscode/
+.DS_Store

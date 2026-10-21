@@ -1,0 +1,72 @@
+name: Scientific Research CI
+
+on:
+  push:
+    branches:
+      - main
+      - feature/**
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    name: Python Scientific Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install scientific dependencies
+        run: python -m pip install -e '.[test]'
+
+      - name: Run numerical and uncertainty tests
+        run: python -m pytest -q
+
+      - name: Verify cross-resolution convergence
+        run: python research/convergence.py
+
+      - name: Verify Sobol replication experiment
+        run: python research/sobol_validation.py
+
+  rust:
+    name: Rust Numerical Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rust
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Check formatting
+        run: cargo fmt --all -- --check
+
+      - name: Run Rust tests
+        run: cargo test --all-targets
+
+  julia:
+    name: Julia Scientific Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: '1'
+
+      - name: Run Julia scientific tests
+        run: julia --project=julia -e 'using QuassarMultiphysics; include("julia/test/runtests.jl")'
