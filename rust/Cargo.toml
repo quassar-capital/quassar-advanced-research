@@ -1,0 +1,9 @@
+[package]
+name = "quassar-multiphysics"
+version = "0.1.0"
+edition = "2021"
+description = "Conservative numerical methods for computational physics"
+
+[lib]
+name = "quassar_multiphysics"
+path = "src/lib.rs"
