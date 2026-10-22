@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "repository": "quassar-advanced-research",
+  "research": [
+    {
+      "id": "01",
+      "title": "Numerical Transport Modeling",
+      "description": "Numerical investigation of transport processes and computational verification.",
+      "implementation": [
+        "src/quassar_advanced_research/transport.py",
+        "rust/src/lib.rs",
+        "julia/src/QuassarMultiphysics.jl"
+      ],
+      "tests": [
+        "tests/test_transport.py",
+        "julia/test/runtests.jl"
+      ],
+      "experiments": [
+        "research/convergence.py",
+        "research/compare_languages.py",
+        "research/compare_julia.jl"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Uncertainty Quantification",
+      "description": "Numerical uncertainty analysis and Sobol-based validation.",
+      "implementation": [
+        "src/quassar_advanced_research/transport.py"
+      ],
+      "tests": [
+        "tests/test_uncertainty.py"
+      ],
+      "experiments": [
+        "research/uncertainty.py",
+        "research/sobol_validation.py"
+      ]
+    }
+  ]
+}
