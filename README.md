@@ -10,6 +10,50 @@ Its scientific scope encompasses aerospace engineering, computational aerodynami
 
 The methodological framework emphasizes mathematical rigor, physical consistency, numerical reliability, scientific reproducibility, and responsible research practices. Its scientific and engineering disciplines are distinct from Quassar Capital's investment strategies, proprietary financial models, and trading infrastructure.
 
+<!-- RESEARCH_INDEX_START -->
+## Research Programs & Scientific Implementations
+
+The following research programs have corresponding scientific implementations in this repository.
+
+### Research 01 — Numerical Transport Modeling
+
+Numerical investigation of transport processes and computational verification.
+
+**Scientific implementation**
+
+- [`transport.py`](src/quassar_advanced_research/transport.py)
+- [`lib.rs`](rust/src/lib.rs)
+- [`QuassarMultiphysics.jl`](julia/src/QuassarMultiphysics.jl)
+
+**Automated validation**
+
+- [`test_transport.py`](tests/test_transport.py)
+- [`runtests.jl`](julia/test/runtests.jl)
+
+**Research experiments**
+
+- [`convergence.py`](research/convergence.py)
+- [`compare_languages.py`](research/compare_languages.py)
+- [`compare_julia.jl`](research/compare_julia.jl)
+
+### Research 02 — Uncertainty Quantification
+
+Numerical uncertainty analysis and Sobol-based validation.
+
+**Scientific implementation**
+
+- [`transport.py`](src/quassar_advanced_research/transport.py)
+
+**Automated validation**
+
+- [`test_uncertainty.py`](tests/test_uncertainty.py)
+
+**Research experiments**
+
+- [`uncertainty.py`](research/uncertainty.py)
+- [`sobol_validation.py`](research/sobol_validation.py)
+<!-- RESEARCH_INDEX_END -->
+
 ## Research Domains
 
 ### Aerospace Engineering
