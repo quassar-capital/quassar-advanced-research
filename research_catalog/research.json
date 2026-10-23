@@ -35,6 +35,41 @@
         "research/uncertainty.py",
         "research/sobol_validation.py"
       ]
+    },
+    {
+      "id": "03",
+      "title": "High-Order Computational Fluid Dynamics",
+      "description": "Conservative one-dimensional compressible Euler flow, HLL numerical fluxes, high-order reconstruction, SSPRK time integration, and reproducible numerical verification.",
+      "implementation": [
+        "research_03/cpp/euler.hpp",
+        "research_03/cpp/finite_volume.hpp",
+        "research_03/cpp/high_order.hpp",
+        "research_03/cpp/high_order_time.hpp",
+        "research_03/cpp/time_integration.hpp",
+        "research_03/cpp/weno.hpp",
+        "research_03/fortran/euler.f90",
+        "research_03/fortran/hll.f90",
+        "research_03/julia/QuassarEuler.jl",
+        "research_03/python/euler.py",
+        "research_03/rust/euler.rs"
+      ],
+      "tests": [
+        "research_03/fortran/test_euler.f90",
+        "research_03/fortran/test_hll.f90",
+        "research_03/fortran/test_hll_conservation.f90",
+        "research_03/tests/test_conservation.cpp",
+        "research_03/tests/test_contact_advection.cpp",
+        "research_03/tests/test_euler.cpp",
+        "research_03/tests/test_euler_convergence.cpp",
+        "research_03/tests/test_high_order.cpp",
+        "research_03/tests/test_high_order_conservation.cpp",
+        "research_03/tests/test_high_order_time.cpp",
+        "research_03/tests/test_time_integration.cpp",
+        "research_03/tests/test_weno.cpp",
+        "research_03/tests/test_weno_convergence.cpp",
+        "research_03/tests/test_weno_discontinuity.cpp"
+      ],
+      "experiments": []
     }
   ]
 }
