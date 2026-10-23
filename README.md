@@ -52,6 +52,41 @@ Numerical uncertainty analysis and Sobol-based validation.
 
 - [`uncertainty.py`](research/uncertainty.py)
 - [`sobol_validation.py`](research/sobol_validation.py)
+
+### Research 03 — High-Order Computational Fluid Dynamics
+
+Conservative one-dimensional compressible Euler flow, HLL numerical fluxes, high-order reconstruction, SSPRK time integration, and reproducible numerical verification.
+
+**Scientific implementation**
+
+- [`euler.hpp`](research_03/cpp/euler.hpp)
+- [`finite_volume.hpp`](research_03/cpp/finite_volume.hpp)
+- [`high_order.hpp`](research_03/cpp/high_order.hpp)
+- [`high_order_time.hpp`](research_03/cpp/high_order_time.hpp)
+- [`time_integration.hpp`](research_03/cpp/time_integration.hpp)
+- [`weno.hpp`](research_03/cpp/weno.hpp)
+- [`euler.f90`](research_03/fortran/euler.f90)
+- [`hll.f90`](research_03/fortran/hll.f90)
+- [`QuassarEuler.jl`](research_03/julia/QuassarEuler.jl)
+- [`euler.py`](research_03/python/euler.py)
+- [`euler.rs`](research_03/rust/euler.rs)
+
+**Automated validation**
+
+- [`test_euler.f90`](research_03/fortran/test_euler.f90)
+- [`test_hll.f90`](research_03/fortran/test_hll.f90)
+- [`test_hll_conservation.f90`](research_03/fortran/test_hll_conservation.f90)
+- [`test_conservation.cpp`](research_03/tests/test_conservation.cpp)
+- [`test_contact_advection.cpp`](research_03/tests/test_contact_advection.cpp)
+- [`test_euler.cpp`](research_03/tests/test_euler.cpp)
+- [`test_euler_convergence.cpp`](research_03/tests/test_euler_convergence.cpp)
+- [`test_high_order.cpp`](research_03/tests/test_high_order.cpp)
+- [`test_high_order_conservation.cpp`](research_03/tests/test_high_order_conservation.cpp)
+- [`test_high_order_time.cpp`](research_03/tests/test_high_order_time.cpp)
+- [`test_time_integration.cpp`](research_03/tests/test_time_integration.cpp)
+- [`test_weno.cpp`](research_03/tests/test_weno.cpp)
+- [`test_weno_convergence.cpp`](research_03/tests/test_weno_convergence.cpp)
+- [`test_weno_discontinuity.cpp`](research_03/tests/test_weno_discontinuity.cpp)
 <!-- RESEARCH_INDEX_END -->
 
 ## Research Domains
