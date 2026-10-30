@@ -1,3 +1,4 @@
+
 # Quassar Advanced Research
 
 **Advanced Scientific Research | Computational Engineering | Applied Mathematics | Artificial Intelligence**
@@ -87,6 +88,34 @@ Conservative one-dimensional compressible Euler flow, HLL numerical fluxes, high
 - [`test_weno.cpp`](research_03/tests/test_weno.cpp)
 - [`test_weno_convergence.cpp`](research_03/tests/test_weno_convergence.cpp)
 - [`test_weno_discontinuity.cpp`](research_03/tests/test_weno_discontinuity.cpp)
+
+### Research 04 — Near-Extremal Kerr Spectral Sensitivity
+
+Finite-dimensional non-normal spectral analysis, structured perturbation sensitivity, pseudospectral diagnostics, separated Kerr and gravitational Teukolsky operators, and spin-weighted angular mode continuation with explicit scientific limitations.
+
+**Scientific implementation**
+
+- [`spectral.py`](research_04/spectral.py)
+- [`structured.py`](research_04/structured.py)
+- [`pseudospectrum.py`](research_04/pseudospectrum.py)
+- [`kerr_operator.py`](research_04/kerr_operator.py)
+- [`gravitational_teukolsky.py`](research_04/gravitational_teukolsky.py)
+- [`angular_solver.py`](research_04/angular_solver.py)
+- [`mode_continuation.py`](research_04/mode_continuation.py)
+
+**Automated validation**
+
+- [`test_research04_spectral.py`](tests/test_research04_spectral.py)
+- [`test_research04_structured.py`](tests/test_research04_structured.py)
+- [`test_research04_pseudospectrum.py`](tests/test_research04_pseudospectrum.py)
+- [`test_research04_kerr_operator.py`](tests/test_research04_kerr_operator.py)
+- [`test_research04_gravitational.py`](tests/test_research04_gravitational.py)
+- [`test_research04_angular_solver.py`](tests/test_research04_angular_solver.py)
+- [`test_research04_mode_continuation.py`](tests/test_research04_mode_continuation.py)
+
+**Research experiments**
+
+- [`RESEARCH.md`](research_04/RESEARCH.md)
 <!-- RESEARCH_INDEX_END -->
 
 ## Research Domains
@@ -107,7 +136,7 @@ Research methodology emphasizes the distinction between numerical verification, 
 
 ### Artificial Intelligence & Scientific Computing
 
-Mathematical and computational approaches to machine learning, numerical optimization, scientific machine learning, and the analysis of complex datasets and physical processes.
+Mathematical and computational approaches to machine learning, numerical optimization, scientific machine learning, and the analysis of complex datasets and physical systems.
 
 Research topics include computational learning methods, physics-informed modeling, numerical approximation, optimization algorithms, uncertainty-aware inference, and the integration of data-driven methods with established mathematical and physical frameworks.
 
