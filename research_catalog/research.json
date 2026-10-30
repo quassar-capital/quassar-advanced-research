@@ -1,3 +1,4 @@
+
 {
   "schema_version": 1,
   "repository": "quassar-advanced-research",
@@ -70,6 +71,32 @@
         "research_03/tests/test_weno_discontinuity.cpp"
       ],
       "experiments": []
+    },
+    {
+      "id": "04",
+      "title": "Near-Extremal Kerr Spectral Sensitivity",
+      "description": "Finite-dimensional non-normal spectral analysis, structured perturbation sensitivity, pseudospectral diagnostics, separated Kerr and gravitational Teukolsky operators, and spin-weighted angular mode continuation with explicit scientific limitations.",
+      "implementation": [
+        "research_04/spectral.py",
+        "research_04/structured.py",
+        "research_04/pseudospectrum.py",
+        "research_04/kerr_operator.py",
+        "research_04/gravitational_teukolsky.py",
+        "research_04/angular_solver.py",
+        "research_04/mode_continuation.py"
+      ],
+      "tests": [
+        "tests/test_research04_spectral.py",
+        "tests/test_research04_structured.py",
+        "tests/test_research04_pseudospectrum.py",
+        "tests/test_research04_kerr_operator.py",
+        "tests/test_research04_gravitational.py",
+        "tests/test_research04_angular_solver.py",
+        "tests/test_research04_mode_continuation.py"
+      ],
+      "experiments": [
+        "research_04/RESEARCH.md"
+      ]
     }
   ]
 }
